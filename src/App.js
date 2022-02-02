@@ -54,7 +54,7 @@ export default function App() {
             <div class="form-group row">
               <label for="countryAddress" class="col-4 col-form-label">Country</label> 
               <div class="col-8">
-                <select id="countryAddress" name="countryAddress" class="country-select" onChange={(e) => this.handleCountries(e)}>
+                <select id="countryAddress" name="countryAddress" class="country-select">
                   {Countries.countries && Countries.countries.map((e, name) => {
                     return <option key={name} value={e.name}>{e.name}</option>;
                   })}
