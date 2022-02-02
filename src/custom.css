@@ -1,0 +1,17 @@
+.logo-container {
+    height: 240px; /* same as max-height of img */
+    width: auto;
+    white-space: nowrap;
+    text-align: center; margin: 1em 0;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.WBlogo {
+    max-height: 240px;
+}
+.addressForm {
+    margin-top: 90px; /* just a little breathing room */
+}
